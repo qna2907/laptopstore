@@ -1,0 +1,1 @@
+<p>Cảm ơn bạn đã đặt hàng, chúng tôi sẽ liên hệ với bạn sớm nhất có thể.</p>

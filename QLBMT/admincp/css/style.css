@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90;
+    margin: 0 auto;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90;
+    margin: 0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+    margin: 5px;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin: 5px;
+}
+input.themgiohang{
+    background: brown;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+    background-image: url(../images/banner1.jpg);
+    border: 1px solid #000066;
+    /* margin-left: 5px; */
+    background-repeat: no-repeat;
+    background-size: 100% 320px;
+    border: 1px solid white;
+    height: 320px;
+    width: 100%;
+}
+.menu{
+    overflow: hidden;
+    /* margin-left: 5px; */
+    background-color: #4E7DE6;
+    border: 1px solid #000066;
+}
+ul.list_menu{
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.list_menu li:hover{
+    background: #A399F7;
+}
+ul.list_menu li a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+ul.list_menu li a:hover{
+    color: #F52781;
+}
+ul.list_menu li{
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+#main{
+    height: auto;
+    width: 100%;
+    float: left;
+    background: white;
+}
+.sidebar{
+    border: 1px solid #000066;
+    height: 575px;
+    width: 20%;
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    float: left;
+    background: #4E7DE6;
+    position: relative;
+    overflow: auto;
+}
+ul.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    line-height: 27px;
+}
+ul.list_sidebar li:hover{
+    background: #FA9829;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #000066;
+    display: block;
+}
+ul.list_sidebar li{
+    margin: 7px;
+    padding: 5px;
+}
+.maincontent{
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li{
+    width: 18%;
+    margin: 5px;
+    float: left;
+    background: white;
+    height: 490px;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+ul.product_list li img{
+    width: 100%;
+    height: 70%;
+}
+p.title_product{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.price_product{
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    border: 1px solid #DB2721;
+    /* margin-left: 5px; */
+    height: 50px;
+    width: 100%;
+    background: #4E7DE6;
+    position: absolute;
+}
+p.footer_copyright{
+    text-align: center;
+    color: #000066;
+}
+i.fa-sharp.fa-solid.fa-plus.fa-style{
+    color: #FA9829;
+}
+i.fa-sharp.fa-solid.fa-plus.fa-style:hover{
+    color: #DB2721;
+}
+i.fa-sharp.fa-solid.fa-minus.fa-style{
+    color: #FA9829;
+}
+i.fa-sharp.fa-solid.fa-minus.fa-style:hover{
+    color: #DB2721;
+}
+.clear{
+    clear: both;
+}
+/* Tabs */
+.tabs {
+    width: 100%;
+    background-color: #4E7DE6;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #4E7DE6;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid #4E7DE6;
+    background-color: #FFF;
+  }
+  
+  /* Just for CodePen styling - don't include if you copy paste */
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  body { 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    margin: 2em;
+  }
